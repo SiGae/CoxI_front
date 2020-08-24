@@ -7,6 +7,20 @@ import {
   StyleSheet,
 } from "react-native";
 
+/**
+ * 이름 : 로그인 View
+ * 요약 : 로그인에 해당하는 View를 화면에 띄운다.
+ * 설명 :
+ *  View
+ *    로그인
+ *    회원가입
+ *  Button
+ *    회원가입
+ *  Event Function
+ *    resistScreen -> 회원가입 화면으로 이동
+ * @param {네비게이션 함수}:function,
+ *
+ */
 const Login = ({ resistScreen }) => {
   return (
     <View style={styles.container}>

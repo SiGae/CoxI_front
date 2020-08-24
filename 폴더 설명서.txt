@@ -1,0 +1,18 @@
+폴더 구성
+Root
+  최상단 루트로 네비게이션과 리덕스가 적용되어 나타남.
+modules
+  데이터 관리하는 곳.
+navigation
+  라우터 담당하는 곳.
+container
+  컨트롤러 담당
+components
+  뷰 담당
+
+// App.js는 나중에 삭제할 것.
+
+대략적인 흐름
+앱 시작 -> index.js -> navigation -> container -> components
+
+나머지 설명은 각 폴더에.

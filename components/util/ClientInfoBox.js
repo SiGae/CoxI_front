@@ -26,12 +26,17 @@ const styles = StyleSheet.create({
     justifyContent: "space-around",
     alignItems: "center",
     borderWidth: 1,
-    borderColor: "black",
+    borderColor: "rgba(0,0,0, 0.1)",
   },
   text: {
     width: 100,
+    height: "100%",
     fontSize: 17,
     textAlign: "center",
+    textAlignVertical: "center",
+    marginRight: 3,
+    marginLeft: 2,
+    backgroundColor: "white",
   },
   textInput: {
     flex: 2,

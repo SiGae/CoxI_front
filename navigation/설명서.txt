@@ -1,0 +1,14 @@
+폴더
+1. navigation  
+  앱 초기 실행시 뜰 화면을 지정하는 역할.
+2. screen  
+  해당하는 View하고 그 View로 이동할 수 있는 
+  View를 등록하는 파일을 모아 놓은 곳.
+  
+  ex) LoginScreen은 회원가입 창으로 넘어갈 수 있어야하고,
+  다시 로그인 창으로 넘어갈 수 있어야 한다.
+  RootPage같은 경우 
+    HomeScreen, LoginScreen, Logout을 할 수 있어야 한다.
+
+navigation 같은 경우 
+react-navigation v5를 사용하였음.
