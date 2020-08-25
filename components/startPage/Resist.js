@@ -1,7 +1,7 @@
 import React from "react";
 import { Text, View, StyleSheet, TouchableHighlight } from "react-native";
-import ClientInfoBox from "./util/ClientInfoBox";
-import Button from "./util/Button";
+import ClientInfoBox from "../util/ClientInfoBox";
+import Button from "../util/Button";
 
 /**
  * 이름 : 회원가입 창

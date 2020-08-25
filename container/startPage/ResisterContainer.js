@@ -1,7 +1,7 @@
 import React, { useEffect, useCallback } from "react";
-import Resist from "../components/Resist";
+import Resist from "../../components/startPage/Resist";
 import { useDispatch, useSelector } from "react-redux";
-import { change_input } from "../modules/auth";
+import { change_input } from "../../modules/_startPage/auth";
 
 const ResisterContainer = () => {
   // Dispatch
