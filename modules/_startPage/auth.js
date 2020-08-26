@@ -2,9 +2,9 @@ import { handleActions, createAction } from "redux-actions";
 import produce from "immer";
 import createRequestSaga, {
   createRequestActionTypes,
-} from "./saga/createRequestSaga";
+} from "../saga/createRequestSaga";
 import { takeLatest } from "redux-saga/effects";
-import * as clientApi from "./api/loginResister";
+import * as clientApi from "../api/loginResister";
 
 /////////////////////////////// ACTION DEFINITION
 // action parameter needed to login

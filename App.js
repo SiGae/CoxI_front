@@ -13,7 +13,7 @@ import LoginContainer from "./container/LoginContainer";
 import LogoutContainer from "./container/ResisterContainer";
 import CreateRoomContainer from "./container/CreateRoomContainer";
 import BottomTab from "./container/LogoutContainer";
-import MainContainer from "./container/MainContainer";
+import MainContainer from "./container/homePage/MainContainer";
 import Test from "./navigation/Test";
 //import RootPage from "./navigation/RootPage";
 

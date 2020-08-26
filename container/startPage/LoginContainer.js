@@ -1,13 +1,7 @@
 import React from "react";
-import {
-  View,
-  Text,
-  TouchableOpacity,
-  TouchableHighlight,
-  StyleSheet,
-} from "react-native";
+import { StyleSheet } from "react-native";
 import { useNavigation } from "@react-navigation/native";
-import Login from "../components/Login";
+import Login from "../../components/startPage/Login";
 
 const LoginContainer = () => {
   const navigation = useNavigation();
